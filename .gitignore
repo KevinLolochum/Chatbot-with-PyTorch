@@ -1,3 +1,2 @@
-#Autogen pycache
-
-_pycache_/*
+# Autogen folders
+__pycache__/*
