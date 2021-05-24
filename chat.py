@@ -28,10 +28,9 @@ model.load_state_dict(model_state)
 model.eval()
 
 
-bot_name = "Sam"
-print("Let's chat! (type 'quit' to exit)")
+bot_name = "Lempi"
+print("Hi there! (type 'quit' to exit)")
 while True:
-    # sentence = "do you use credit cards?"
     sentence = input("You: ")
     if sentence == "quit":
         break
@@ -53,4 +52,4 @@ while True:
             if tag == intent["tag"]:
                 print(f"{bot_name}: {random.choice(intent['responses'])}")
     else:
-        print(f"{bot_name}: I do not understand...")
+        print(f"{bot_name}: I can't help with that, call us for more info..")
